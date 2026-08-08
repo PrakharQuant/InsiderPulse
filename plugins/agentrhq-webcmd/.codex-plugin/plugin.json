@@ -1,0 +1,28 @@
+{
+  "name": "agentrhq-webcmd",
+  "version": "0.1.0",
+  "description": "Webcmd workflows for searching, browsing, and automating websites.",
+  "author": {
+    "name": "Local developer"
+  },
+  "keywords": [
+    "webcmd",
+    "web",
+    "browser",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AgentRHQ Webcmd",
+    "shortDescription": "Use Webcmd for web research and browser workflows.",
+    "longDescription": "Adds a Webcmd workflow skill that guides Codex to discover adapters, search websites, and use browser automation when needed.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use Webcmd to research this topic.",
+      "Use Webcmd to automate this website task.",
+      "Find the right Webcmd adapter for this site."
+    ]
+  }
+}

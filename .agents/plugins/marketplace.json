@@ -1,0 +1,20 @@
+{
+  "name": "agentrhq-webcmd-local",
+  "interface": {
+    "displayName": "AgentRHQ Webcmd Local"
+  },
+  "plugins": [
+    {
+      "name": "agentrhq-webcmd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agentrhq-webcmd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
