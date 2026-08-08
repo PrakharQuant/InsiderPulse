@@ -183,8 +183,8 @@ gemini_api_key = (
 )
 
 user_key = st.sidebar.text_input(
-    "Gemini API Key (Optional)",
-    value=gemini_api_key,
+    "Custom Gemini API Key (Optional)",
+    value="",
     type="password",
     help="Enter key to enable Gemini trade insights. If blank, standard rule-based analysis is used.",
 )
